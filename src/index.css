@@ -1,0 +1,19 @@
+@import "tailwindcss";
+body{
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+
+}
+.custom-popup{
+    height: 200px;
+    padding-top: 15px;
+}
+::-webkit-scrollbar {
+    width: 8px;  /* Adjust width */
+  }
+  
+::-webkit-scrollbar-thumb {
+    background-color: rgb(135, 134, 134);  /* Thumb color */
+    border-radius: 10px;  /* Rounded thumb */
+  }
